@@ -24,4 +24,4 @@ RUN apt-get install -y apache2
 RUN curl -w "\n" -s https://api.ipify.org
 
 
-EXPOSE 80
+#EXPOSE 80
