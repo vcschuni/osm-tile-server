@@ -1,13 +1,13 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # Based on
 # https://switch2osm.org/serving-tiles/manually-building-a-tile-server-18-04-lts/
 
 # Set up environment
-ENV TZ=UTC
-ENV AUTOVACUUM=on
-ENV UPDATES=disabled
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+#ENV TZ=UTC
+#ENV AUTOVACUUM=on
+#ENV UPDATES=disabled
+#RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Install dependencies
 RUN apt-get update
