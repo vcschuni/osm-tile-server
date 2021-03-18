@@ -18,6 +18,6 @@ RUN apt-get update
 #RUN apt-get update
 #RUN apt-get install -y nodejs
 
-RUN apt-get install -y default-jdk tomcat
+RUN apt-get install -y default-jdk tomcat9
 
 EXPOSE 8080
